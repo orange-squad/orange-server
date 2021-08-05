@@ -28,6 +28,10 @@ erDiagram
     string password
   }
 
+  SYMPTOM {
+    string name
+  }
+
 ```
 
 [Mermaid Syntax Reference](https://mermaid-js.github.io/mermaid/#/n00b-syntaxReference)

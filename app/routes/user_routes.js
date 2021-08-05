@@ -48,10 +48,6 @@ router.post('/sign-up', (req, res, next) => {
 			return {
 				email: req.body.credentials.email,
 				hashedPassword: hash,
-				// if isAdmin does not exist (undef) set to false
-				isAdmin: req.body.credentials.isAdmin
-					? req.body.credentials.isAdmin
-					: false,
 			}
 		})
 		// create user with provided email and hashed password
